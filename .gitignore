@@ -1,0 +1,20 @@
+# Datos (NO subir archivos pesados)
+data/raw/*
+data/processed/*
+*.csv
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Modelos
+models/*
+*.pkl
+*.joblib
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
